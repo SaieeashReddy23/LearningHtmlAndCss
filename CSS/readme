@@ -1,0 +1,61 @@
+CSS :- Cascading Style sheets
+
+
+  -> We can add css to our html files in 3 ways 
+         -> Inline css
+         -> External css
+         -> Internal css
+
+
+         -> Power struggle . Inline css  > internal Css > External Css
+
+         -> if external css is kept below or after the Internal css style component then styles of external css are considered . If the External css file is kept before or above the style component then styles of the styles component are considered .  The tag or the ones which come at the last overide the previous changes.
+
+
+  -> h1{
+    color:red;
+    font-size:50px;
+  }
+
+        -> the above whole with the block and element is called a selector.
+         -> here h1 is an element , it can be a class or an id.
+         -> the lines inbertween the flower brackets is called declaration block
+         -> color:red;  - this is called the declaration statement
+         -> color  -  here this is the property
+         -> red -  this is the property value
+         -> if one of the declaration statement is wrong then the whole declaration block wont be executed
+
+
+         -> Id has more preference than a class for an element with both class and id.
+
+
+-> INheritance in css :- child elements inherit parent styles , we can overide them in child class
+
+
+
+-> Last Rule:-
+
+       -> it means that if the same selector or property rules  are added in a file at the starting and the after a few or more lines if that property is changed for that selector then the last rule or we can say the selector which was written at the bottom of the file will be considered.
+
+
+
+-> Specificity
+
+      -> There are like values assigned which addup to tell the Specificity
+      -> for example class has more Specificity than an element
+      -> a id has more Specificity than a class
+
+-> Universal selector
+
+      -> * is used as a universal selector. all the elements will have this properties.
+      -> universal selector has the least specificity
+
+
+-> Combining selectors
+
+      -> like 
+      -> .container p {
+          color:red;
+      } 
+
+      -> What this does is is only makes the p element in the container class to red

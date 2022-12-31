@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(15, 135, 182, 0.1);
+}
+
+div {
+  background-color: white;
+}
+
+h4 {
+  color: blue;
+}
+
+p {
+  color: grey;
+}
+
+.special {
+  background-color: black;
+}
