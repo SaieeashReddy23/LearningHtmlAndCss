@@ -1,0 +1,29 @@
+HTML :- Hyper Text Markup Language.
+
+     ->  Tools we require when learning HTML mainly a browser ( chrome) and a text Editor (Vscode) .
+
+     ->  Live server Extension  to be used so that our changes are reflected in chrome with out refershing it ourselves manually.
+
+     -> Html  collapses white column spaces. That means , wither vertically or horizontally if you give more that 1 column white space , extra whitespaces will be collapsed or deleted.
+
+     -> lorem  - this is used to create dummy text. lorem500  means it creates 500 words of dummy text.
+
+-> Free Stock Images websites :-
+
+    -> Pexels
+    -> pixabey
+    -> gratisography
+
+-> if we get pics from the stock images , they will be of high quality and our page may take less time to load them . For example hot girl image is of width 800px , if we use width attribute in the image tag , it shows the images adjusted to its width but that massive image is being loaded. so our webpage takes more time to load , so what we can do is , we can reduce the size of the image using photoshop or paint or preview.
+
+-> <!-- Hello world --> this is used to write comments . With in these tags you can write comments in html and they wont be visible on scree.
+
+-> Add prettier extension to your vscode so that the code looks cool.
+
+HTML :-
+
+    -> Image tags , heading tags , lists ordered and unordered , tables , nested lists , links and types of links ,
+
+    -> Forms and inputs
+
+    -> Extensions
