@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 20vh;
+  color: red;
+}
+
+.banner {
+  height: calc(100vh - 20vh);
+  background-color: black;
+  color: white;
+}
+
+.banner h1 {
+  color: red;
+}
+
+.banner h2 {
+  font-size: 3rem;
+}
+
+button {
+  color: white;
+  background-color: red;
+}

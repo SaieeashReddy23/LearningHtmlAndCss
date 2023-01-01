@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(227, 248, 255);
+  text-align: center;
+}
+
+.pink {
+  height: 200px;
+  background-color: white;
+  width: 300px;
+  margin: 3rem auto;
+  border: 1px solid pink;
+  border-radius: 10px;
+}
+
+.pinkCircle {
+  border-radius: 50%;
+  background-color: pink;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem auto;
+}
+
+.blue {
+  height: 200px;
+  background-color: white;
+  width: 300px;
+  margin: 2rem auto;
+  border: 1px solid rgb(85, 170, 235);
+  border-radius: 10px;
+}
+
+.blueCircle {
+  border-radius: 50%;
+  background-color: rgb(85, 170, 235);
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem auto;
+}
+
+p,
+button {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+h2 {
+  margin: 1rem 0 1rem 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+.pink button {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(255, 224, 229);
+  color: rgb(253, 133, 153);
+}
+
+.blue button {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: aliceblue;
+  color: rgb(85, 170, 235);
+}

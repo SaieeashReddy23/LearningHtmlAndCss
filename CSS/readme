@@ -59,3 +59,59 @@ CSS :- Cascading Style sheets
       } 
 
       -> What this does is is only makes the p element in the container class to red
+
+-> Div is used to group block elements and span is used to group inline elements
+
+
+-> Units :-
+
+      -> pixels are absolute units. it means 40px in you laptop is same as 40px in some other device.
+      -> 1px means 1 dot on the screen.
+
+
+      -> Percent - it is a relative unit. it depend on the value of the parent.
+
+
+      -> Em  -  these are also the relative values . generally it takes the base value from the parent browser . our browser by default base value is 16px.
+      -> 2em means  -  16 * 2 = 32px
+
+
+      -> Rem -  these are also relative values.It depends on the root element of the project rather than the parent.
+      -> you can change root element size using browser or changing value of html tag.
+
+
+      -> vh , vw   - these are viewport units . they take the percentage of the screen.
+      -> if 10vh then it means , 10% if the screen height.if the screen changes size changes.
+      -> 10vw means 10% of the screen width.
+      -> here screen is nothing but the browser window screen size.
+
+
+
+
+-> calc()  -  this func is used to do some calculations . it can used mixed units
+
+
+-> height , min-height , max-height , overflow
+
+
+-> Fonts - google fonts
+
+        -> Select family of fonts , if one fails then we will always have a fallback to fall on
+
+        -> We can use font-weight , font-style
+
+        
+
+-> Text-align , text indent :- 
+
+      -> line height , letter spaciing  word spacing , text transform , text decoration
+
+
+
+
+
+
+-> CSS BOX MODEL :-
+
+      -> Padding , margin , border
+

@@ -1,13 +1,19 @@
-h1,
-h2 {
-  color: red;
-  font-size: 50px;
+* {
+  margin: 0;
 }
 
-#title {
-  color: green;
+.one {
+  background-color: red;
+  padding: 2rem;
+  margin: 2rem;
+  border: 5px dotted green;
+  border-radius: 20px;
 }
 
-.titleClass {
-  color: pink;
+.two {
+  background-color: blue;
+  padding: 4rem;
+  margin: 2rem;
+  outline: 10px solid green;
+  outline-offset: -2rem;
 }
