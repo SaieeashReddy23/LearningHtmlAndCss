@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  background-color: white;
+  padding: 5rem 0;
+}
+
+.block h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.block .line {
+  height: 3px;
+  background-color: rgb(70, 102, 227);
+  width: 80px;
+  margin: 0px auto;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}

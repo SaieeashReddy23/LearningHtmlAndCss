@@ -115,3 +115,67 @@ CSS :- Cascading Style sheets
 
       -> Padding , margin , border
 
+
+
+-> Cheat trick :-
+
+      -> When you are confused with the layout of all the elements with their margin and padding .
+       use *{
+            border: 1px solid red;
+      }
+
+      -> With this alll the elements will have borders.
+
+
+
+-> Display property :-
+
+      -> Block  -  new line and extenrs whole width.
+      -> inline -  same line , doesnot extent whole width of screen
+
+
+->Basic horzontal centering :-
+
+      -> For inline elements we can center them using the parent element; text-align:center
+
+      -> we can center only the text content in the block element using this way of text-align:center in parent element.
+
+      -> we can center the whole block element in two steps 1. first give a width to your block element . 2. you can give margin:0 auto . means top and bottom margin is 0 and right , left margin is auto.
+
+      -> To make the block elements left align then margin-right:auto;
+
+
+
+-> Note :-
+
+      -> INLINE Elements :- Browser does not respect width/height , top/bottom margin .
+
+      -> Block Elements :- Browser respects width/height , top/bottom margin.
+
+
+-> Box-sizing : border-box :-
+
+      -> by default box-sizing is set to  content-box .
+
+      -> it means that when width is 200 and padding if 20px is added then now total is 200 + 20 + 20 . the width of the box.
+
+
+      -> if box-sizing : border box  
+      -> it means that when width is  200 and padding is 20  then still the width is 200 and padding is added inside that width to the text.
+
+
+-> Display : inline-block 
+
+      -> what it does is it will not start a new line for the block and browser takes into consideration of width , height and margin 
+
+
+-> display  : none 
+
+      -> What it does is it makes the element disappear and makes space collapse.
+
+-> opacity - 1 :-
+
+      -> nothing , if it is 0 then it makes the element hidden but the space wont collapse. 
+
+-> visibility : hiddne :-
+      -> this also element disappear but place doesnot collapse
