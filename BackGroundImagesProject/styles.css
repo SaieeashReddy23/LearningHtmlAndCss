@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  height: 100vh;
+}
+
+.header {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 4px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./hero-bcg.jpg);
+  height: 80vh;
+  background-size: cover;
+}
+
+.textInfo {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.textInfo h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+}
+
+.textInfo p {
+  margin: 1.5rem 0;
+  width: 30vw;
+}
+
+button {
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+}

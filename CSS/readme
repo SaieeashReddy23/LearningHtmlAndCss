@@ -179,3 +179,24 @@ CSS :- Cascading Style sheets
 
 -> visibility : hiddne :-
       -> this also element disappear but place doesnot collapse
+
+
+
+-> Images as Background :-
+
+   -> our image will cover the whole div element if image is greater than the size of div element. background-repeat: repeat (default value)
+   -> if image is smaller than the div element then  the image starts repearing in horizontal and vertical direction.
+
+   -> background-size : cover .
+            -> this one covers the whole div regardless of its size . if the image is bigger than div element noproblem  but if img is smaller than div element  , then its quality will be greatly affeced.
+    -> background-size : contain :-
+
+            -> this one preserves the ratio . in the remaining space image is repated.
+    -> Background-attachment : fixed
+
+            -> what it does is when we are scrolling image will be fixed and does not move , but what erver the content is in that element it will move.
+
+            -> by default it will be scroll.
+
+      
+
