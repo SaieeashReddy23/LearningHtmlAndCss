@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 4px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./hero-bcg.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.textInfo {
+  text-align: center;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 3rem 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textInfo h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+}
+
+.textInfo p {
+  margin: 1.5rem auto;
+  max-width: 40vw;
+}
+
+button {
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+}
+
+.text {
+  position: relative;
+  animation: moveDown 3s;
+}
+
+.button {
+  position: relative;
+  animation: moveUp 3s;
+}
+
+@keyframes moveDown {
+  0% {
+    top: -100px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    bottom: -100px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+  }
+}

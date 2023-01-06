@@ -198,5 +198,114 @@ CSS :- Cascading Style sheets
 
             -> by default it will be scroll.
 
-      
 
+
+
+Float :-
+
+      -> This property makes the element float by which other elements will wrap around this element.
+      -> if you want to stop this behaviour of elements floating around it we can use clear.
+
+
+Position :-
+
+      -> static :-  normal flow
+      -> relative :-  position relative to its normal position. we can use top , left , bottom , right
+                  -> so it move the element from is's normal position and no element fills its space.
+
+
+      -> absolute :-  it is relative to the  parent with position:relative . if not parent is with posiiton relative then it considers the body. . Other content will fill out its space.
+
+
+      -> Fixed : relative to the view port size. content will also fill here.
+
+      -> Sticky :-
+                toggles between relative and fixed once the position is met in the viewport then it sticks
+
+
+
+Media Query :-
+
+      -> to do a responsive design
+      -> Mobile first - means first we design ui for mobile or small screen and then change css for bigger screeens using media queries.
+      -> we will use min-width and max-width
+      -> when that screen size comes the block of properties will becoma active. 
+
+
+Z index :-
+
+      -> does not work with position static
+      -> by default it is 0;
+
+
+
+pseudo elements :-
+
+      -> P::before , p::after 
+      -> These are used to create an element and insert content before and after the content.
+      -> content:'' -  this property is required in the pseudo element. if this property is not present then the pesudo elements wont work
+      -> for img we cant add the pseduo element becoz by itself it is a content
+       .
+
+insert :-
+
+      -> we will be using this inplace of left , right , bottom , left
+
+
+Selectors :-
+
+      -> div h1 {
+
+      }   -> what it does is for all the descendents
+
+      -> div > h1 {
+
+      }  - just the first child.
+
+      -> p::first-line , p::first-letter
+
+
+      -> hover :-
+
+            -> div:hover {
+
+            }  -> only one colon and it
+
+            -> :link  - unvisited
+            -> :active - at the users click
+            -> hover - hover
+            ->:visited - visisted links
+
+            -> :root - 
+
+
+
+
+
+-> Transform :-
+
+      -> translate() ,  scale() , rotate() , skew()
+
+
+
+-> transition :-
+
+      -> change over time
+
+      -> transition-property , transition-duration:
+
+      -> transition-delay :
+
+      -> transition-timting-function : ease , ease-in , linear , ease-in , ease-in-out
+
+
+-> Animation :-
+
+      -> @keyFrames identifier {
+
+      } - create frames for 0% , 10% .. 100% .
+
+      -> animation: identifier seconds repatedtimes ...
+
+      -> animation-fill-mode : farwards   -  to the state at the end of animation
+                              : backwards - to the state at the beginning of the animation

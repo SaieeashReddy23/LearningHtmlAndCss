@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  height: 10vh;
+  background-color: black;
+  color: white;
+   display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+`
+}
+
+.navbar h1 {
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: calc(100vh - 10vh);
+  background :  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , rgba(151, 60, 11, 0.737);
+
+  color: white;
+  position: relative;
+}
+
+.content-center{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    margin: 2rem 0;
+}
+
+.content p {
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: none;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.temp {
+    height: 100vh;
+    background-color: red;
+}
+
+
+@media screen and (min-width:765px) {
+
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(./hero-bcg.jpg);
+          background-size: cover;
+    }
+
+}
