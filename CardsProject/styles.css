@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroundColor: hwb(195 87% 5%);
+}
+
+body {
+  background-color: var(--backgroundColor);
+}
+
+.container {
+  margin: 2rem;
+}
+
+.container > h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.card {
+  max-width: 500px;
+  background-color: white;
+  padding: 0.75em;
+  width: 90vw;
+  margin: 3rem auto;
+  border-radius: 10px;
+  box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.25);
+
+  transition: 0.5s ease-in-out all;
+}
+
+.card:hover {
+  box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.53);
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 9px 9px 21px -1px rgba(0, 0, 0, 0.53);
+  }
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(233, 45, 250);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card h1 {
+  font-size: 1.4em;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: rgba(101, 97, 97, 0.641);
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+}
