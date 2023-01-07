@@ -309,3 +309,57 @@ Selectors :-
 
       -> animation-fill-mode : farwards   -  to the state at the end of animation
                               : backwards - to the state at the beginning of the animation
+
+
+
+
+CSS Variables :-
+
+
+      -> --varName:value
+      -> to use it :-    property:var(--varName);
+      -> scope :root -  global , inside element - local
+
+
+
+Font awesome for icons :-
+
+      -> cdn , selfhosting or svg
+
+
+Shadows :-
+
+      -> text-shadow: horizontal  vertical  blur color
+
+      -> you can use cssShadowgenerator
+
+
+Semantic elements :-
+
+      -> nav
+      -> 
+
+
+-> Object-fit :-
+
+      -> cover - you can have your images not distorted. you can give specific height and width.
+
+
+
+-> Emmet - it provides snippets
+
+-> :is() , :not()
+
+      -> is{nav , section , div} h2:hover{
+
+      }  -  all the h2 elements of nav , section and div
+
+
+
+
+-> HSL :- Hue , Saturation , Lightness
+
+      -> Hue  -  its a wheel  with colors red - 0deg , green - 120deg , blue - 240deg.
+      -> saturation - greyness - 0% means full grey and 100% means full color
+      -> lightness -  0% means  full black and 100% means full white
+
