@@ -1,0 +1,39 @@
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  border: 1px solid red;
+  padding: 1rem;
+}
+
+.container-1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  border: 1px solid red;
+  padding: 1rem;
+}
+
+.box {
+  font-size: 2rem;
+  padding: 3rem 0;
+}
+
+.box-1 {
+  background-color: green;
+}
+
+.box-2 {
+  background-color: pink;
+}
+
+.box-3 {
+  background-color: blue;
+  font-size: 4rem;
+}
+
+.box-4 {
+  background-color: brown;
+}
+
+.box-5 {
+  background-color: mediumaquamarine;
+}
